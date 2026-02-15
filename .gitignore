@@ -1,0 +1,100 @@
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# JupyterLab / Notebook state
+.jupyter/
+.jupyterlab-workspaces/
+.jupyterlab-settings/
+
+# IPython
+.ipython/
+
+# =========================
+# Python cache / build
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv / Conda
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-bld/
+# (선택) conda 환경 파일은 보통 커밋함: environment.yml / requirements.txt
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data / outputs (권장: 프로젝트 상황에 맞게 조절)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# Model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Optional: notebook exports
+# =========================
+*.nbconvert.ipynb
+
+# =========================
+# Optional: specific files
+# =========================
+Miniforge3-*.sh
+
